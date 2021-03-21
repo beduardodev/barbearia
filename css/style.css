@@ -228,6 +228,10 @@ th {
     font-weight: bold;
 }
 
+.itens:before {
+    content: "🟊";
+}
+
 .imagem-Beneficios {
     width: 60%;
 }
