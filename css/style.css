@@ -63,17 +63,13 @@ nav a:hover {
     border-color: #088C19;
 }
 
-.produtos li:hover h2 {
-    font-size: 35px;
-}
-
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
 }
 
 .produto-descricao {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .produto-preco {
@@ -95,7 +91,7 @@ footer {
 }
 
 form {
-    margin: 40px 0;
+    margin: 40px 40px;
 }
 
 form label,
@@ -135,7 +131,7 @@ form legend {
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px 40px 40px;
 }
 
 thead {
@@ -155,6 +151,7 @@ th {
 
 .banner {
     width: 100%;
+    height: 50%;
 }
 
 .titulo-principal {
@@ -256,8 +253,16 @@ th {
     .conteudo-beneficios,
     .mapa-conteudo,
     .video,
-    header {
+    header,
+    .produtos {
         width: auto;
+    }
+    .produtos li {
+        display: block;
+        width: auto;
+    }
+    .produtos h2 {
+        text-align: center;
     }
     h1 {
         text-align: center;
@@ -269,5 +274,8 @@ th {
     .lista-beneficios,
     .imagem-Beneficios {
         width: 100%;
+    }
+    .enviar {
+        width: auto;
     }
 }
